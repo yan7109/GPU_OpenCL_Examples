@@ -1,0 +1,32 @@
+./../../../../nvidia-opencl-examples-master/OpenCL/bin/linux/release/oclBoxFilter Starting, using BoxFilter.cl...
+
+  Right-Click on Mouse for Menu
+
+  or
+
+  Press:
+
+   <spacebar> to toggle Filter On/Off
+
+   'F' key to toggle between FullScreen and Windowed
+
+   '+' key to Increase filter radius
+
+   '-' key to Decrease filter radius
+
+   'G' key to toggle between OpenGL interop and no-OpenCL interop
+
+   'P' key to toggle Processing between GPU and CPU
+
+   <esc> to Quit
+
+
+
+ !!! Error # -9999 (Unspecified Error) at line 189 , in file oclBoxFilter.cpp !!!
+
+
+Starting Cleanup...
+
+./../../../../nvidia-opencl-examples-master/OpenCL/bin/linux/release/oclBoxFilter Exiting...
+Press <Enter> to Quit
+-----------------------------------------------------------

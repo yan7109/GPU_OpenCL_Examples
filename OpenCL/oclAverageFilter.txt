@@ -1,0 +1,922 @@
+./bin/linux/release/oclAverageFilter Starting (Using AverageFilter.cl)...
+
+  Right Click on Mouse for Menu
+
+  or
+
+Press:
+
+  <spacebar> to toggle Filter On/Off
+  <F> key to toggle between FullScreen and Windowed
+  <P> key to toggle Processing between GPU and CPU
+  <-/+> Change Threshold (-/+ 10.0)
+  <ESC> to Quit
+
+Image File	 = ./src/oclAverageFilter/data/butterflies.ppm
+Image Dimensions = 1920 w x 1080 h x 32 bpp
+
+Calling InitGL...
+
+Get Platform ID... NVIDIA CUDA
+
+Get Device Info...
+  Using 1 Selected Device for Average Filter Computation...
+
+clCreateContext...
+
+clCreateCommandQueue...
+  CommandQueue 0, Device 0, Device Load Proportion = 1.00, GeForce GTX 480
+
+clCreateBuffer (Input and Output Pinned Host buffers)...
+clEnqueueMapBuffer (Pointer to Input and Output pinned host buffers)...
+Load Input Image to Input pinned host buffer...
+Load OpenCL Prog Source from File...
+clCreateProgramWithSource...
+clBuildProgram...
+
+clCreateKernel (ckAverage), Device 0...
+Image Height (rows) for Device 0 = 1080...
+clCreateBuffer (Input and Output GMEM buffers, Device 0)...
+clSetKernelArg (0-4), Device 0...
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1069
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1073
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1054
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1074
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1075
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1073
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1077
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1079
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1079
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1077
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1078
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1077
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1080
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1078
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1077
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1078
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1024
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1056
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1081
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1061
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1062
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1079
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1079
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1078
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1061
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1078
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1079
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1061
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1078
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1072
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1079
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1079
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1054
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1080
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1062
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1079
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1079
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1080
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1079
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1061
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1080
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1056
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1062
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1062
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1079
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1079
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1026
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1080
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1078
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1072
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1078
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1079
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1080
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1079
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1060
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1079
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1048
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1026
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1079
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1078
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1078
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1080
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1069
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1078
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1023
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1080
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1078
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1059
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1080
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1077
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1077
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1080
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1077
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1071
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1079
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1080
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1079
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1062
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1080
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1081
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1026
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1080
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1061
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1080
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1080
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1081
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1080
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1081
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1081
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1081
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1079
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1081
+
+OpenCL GPU RGB Average Filter ON | W: 1920 , H: 1080 | Iterations = 1 | # GPUs = 1 | 1072 fps | Proc. t = 0.00093 s | 2222.9 Mpix/s | window size = 3
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1077
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1077
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1079
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1078
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1079
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1075
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1079
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1073
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1079
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1077
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1024
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1079
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1074
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1078
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1080
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1077
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1080
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1078
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1081
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1060
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1077
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1072
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1079
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1014
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1080
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1077
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1062
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1024
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1078
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1078
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1078
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1067
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1077
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1078
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1079
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1078
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1081
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1073
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1062
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1061
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1023
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1061
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1059
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1077
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1050
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1060
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1080
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1078
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1068
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1081
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1078
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1080
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1073
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1060
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1080
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1077
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1078
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1054
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1078
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1078
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1080
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1079
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1080
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1079
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1024
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1080
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1080
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1077
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1080
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1026
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1031
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1055
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1081
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1062
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1082
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1078
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1080
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1078
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1080
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1075
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1078
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1079
+
+The global work size is 2048 x 1152
+The local work size is 32 x 32
+The TEST local work size is 32 x 32, error number is 0
+DEREK fps: 1048
+
+
+Starting Cleanup...
+
+./bin/linux/release/oclAverageFilter Exiting...
+-----------------------------------------------------------
